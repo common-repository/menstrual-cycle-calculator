@@ -1,0 +1,39 @@
+.error {
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.success {
+  border: 2px solid green;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
